@@ -199,12 +199,12 @@ header {
     text-align: center;
     transition: .5s;
 }
-/*
+
     .navegacion__links--item:hover{
     color: var(--azul);
     font-size: 2.6rem;
 }
-*/
+
 
 /* Footer */
 
@@ -284,12 +284,12 @@ header {
     font-size: 1.5rem;
     transition: .5s;
 }
-/*
+
 .button:hover {
     font-size: 1.6rem;
     cursor: pointer;
 }
-*/
+
 
 
 /* INDEX */
@@ -464,12 +464,12 @@ header {
         width: 20rem;
         transition: .3s;
     }
-/*
+
     .curso img:hover {
         height: 23rem;
         width: 23rem;
     }
-*/
+
 
 #curso1 {
     grid-area: curso1;
