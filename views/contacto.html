@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/learnblockchain_ico.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Learn Blockchain - Academia Blockchain</title>
+</head>
+<body>
+    <header class="contenedorHeader">
+
+        <nav class="navegacion">
+            <div class="navegacion__logo">
+                <a href="../index.html">
+                    <img src="../img/Logo_Completo-removebg-preview.png" alt="Logo Learn Blockchain - Aprende. Crea. Crece.">
+                </a> <!--Ends logo-->           
+            </div>
+            <div class="navegacion__links">
+                
+                <a class="navegacion__links--item" href="../index.html">
+                    Inicio
+                </a>                    
+                
+                <a class="navegacion__links--item" href="cursos.html">
+                    Cursos
+                </a>                    
+                
+                <a class="navegacion__links--item" href="blog.html"
+                    >Blog
+                </a>                    
+                
+                <a class="navegacion__links--item" href="nosotros.html">
+                    Nosotros
+                </a>                    
+                
+                <a class="navegacion__links--item" href="contacto.html">
+                    Contacto
+                </a>
+                
+            </div><!--Ends links-->
+        </nav> <!--Ends nav-->
+        <div class="header_texto">
+            <h1>APRENDE. CREA. CRECE.</h1>
+            <h2>Aprende la tecnología que revoluciona el mundo.</h2>
+        </div>
+        <!-- <img src="img/blockchain_hero.jpeg"  alt="imagen hero blockchain"> -->
+    </header> <!--Ends header-->
+
+    <main>
+        <section class="contenedor_contacto">
+            <h3 class="center_text">Contactanos</h3>
+            <div class="contacto_flex">
+                <img class="contacto_imagen" src="../img/contact_img.jpg" alt="imagen_contacto">
+                <img class="contacto_imagen_mobile" src="../img/contact_img_mobile.jpg" alt="imagen_contacto_mobile">
+                <form class="contact_form" action="envio.php">
+                                
+                    <legend>Informacion Personal</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name">
+                    <label for="surname">Apellido</label>
+                    <input type="text" id="surname">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="ejemplo@email.com">
+                
+                
+                    <legend>Informacion de Pago</legend>
+                    <label for="transferencia">Transferencia Bancaria</label>
+                    <input type="radio" id="transferencia" value="" name="info-pago">
+                    <label for="tarjeta-credito">Tarjeta de Credito</label>
+                    <input type="radio" id="tarjeta-credito" value="" name="info-pago">
+                    <label for="crypto">Criptomonedas</label>
+                    <input type="radio" id="crypto" value="" name="info-pago">
+                
+                
+                    <legend>Nivel</legend>
+                    <select name="" id="pais">Nivel</legend>  
+                        <option selected="selected" value="default" disabled>Nivel</option>              
+                        <option value="principiante">Principiante</option>
+                        <option value="intermedio">Intermedio</option>
+                        <option value="avanzado">Avanzado</option>
+                    </select>
+                
+                
+                    <label for="mensaje">Dejanos tu mensaje</label>
+                    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                    <input class="btn_cancel" type="reset" value="Cancelar">
+                    <input class="btn_send" type="button" value="Enviar">
+                </form>
+            </div>   
+            
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <div>
+            <a href="../index.html">
+                <img src="../img/Logo_Completo-removebg-preview.png" alt="Logo Learn Blockchain - Aprende. Crea. Crece.">
+            </a>
+        </div> <!-- Ends logo-->
+
+        <div class="footer__redes">
+            <h4>Síguenos en nuestras redes</h4>
+            
+            <div class="footer__redes--links">
+                <a href="http://facebook.com" target="_blank">
+                    <img src="../img/facebook_icon.svg" alt="facebook_icon">
+                </a>
+    
+                <a href="http://twitter.com" target="blank_">
+                    <img src="../img/twitter_icon.svg" alt="twitter_icon">
+                </a>
+    
+                <a href="http://instagram.com" target="blank_">
+                    <img src="../img/instagram_icon.svg" alt="instagram_icon">
+                </a>
+            </div>
+            
+        </div> <!--Ends redes -->
+
+
+        <div class="footer__newsletter">
+            <h4 class="center_text">Newsletter</h4>
+            <div class="footer__newsletter--btn">
+                <input type="email">
+                <input class="button" type="button" value="SUSCRIBIRSE">
+            </div>
+        </div>
+        
+
+
+    </footer> <!--Ends footer-->
+</body>
+</html>
