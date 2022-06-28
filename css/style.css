@@ -104,7 +104,6 @@ header {
 }
 /* CLASES GENERALES */
 
-
 /* Header */
 .contenedorHeader {
     width: 100%;
@@ -205,7 +204,28 @@ header {
     font-size: 2.6rem;
 }
 
+.animacion_titulo {
+    animation-name: animacion_titulo;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
 
+    @keyframes animacion_titulo {
+        0% {opacity: 0;}
+        100% {opacity: 100}
+    }
+
+    .animacion_titulo2 {
+        animation-name: animacion_titulo;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+    }
+    
+        @keyframes animacion_titulo {
+            0% {opacity: 0;}
+            50% {opacity: 0;}
+            100% {opacity: 100}
+        }
 /* Footer */
 
 .footer__redes {
@@ -286,7 +306,8 @@ header {
 }
 
 .button:hover {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
+    background-color: #cf9c04;
     cursor: pointer;
 }
 
@@ -665,7 +686,13 @@ header {
     color: whitesmoke;
     border: none;
     font-weight: bold;
+    border-radius: .5rem;
+    transition: .5s;
 }
+
+    .btn_cancel:hover {
+        background-color:#252f3a
+    }
 
 .btn_send {
     background-color: var(--amarillo);
@@ -673,7 +700,12 @@ header {
     font-weight: bold;
     border: none;  
     border-radius: .5rem;
+    transition: .5s;
 }
+
+    .btn_send:hover {
+        background-color: #cf9c04;
+    }
 /* NOSOTROS */
 
 .contenedorNosotros {
